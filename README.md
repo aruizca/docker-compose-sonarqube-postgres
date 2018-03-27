@@ -22,6 +22,6 @@ Analyse a project:
 
 ```
 mvn sonar:sonar \
-  -Dsonar.host.url=http://$(boot2docker ip):9000 \
+  -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.jdbc.url=jdbc:postgresql://$(boot2docker ip)/sonar
 ```  
